@@ -1,0 +1,16 @@
+body {
+  background: #0D0D0D;
+  color: #D9D9D9;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+.header { background: #1a1a1a; padding: 1rem; }
+h1, h2, h3 { font-family: 'Cinzel', serif; color: #fff; }
+a { color: #D9D9D9; text-decoration: none; }
+a:hover { color: #fff; }
+.hero { padding: 4rem 2rem; text-align: center; background: #4B0035; }
+.btn.primary { background: #7A0D1C; color: #fff; padding: 0.5rem 1rem; border-radius: 5px; }
+.grid { display: flex; gap: 1rem; flex-wrap: wrap; }
+.card { background: #1f1f1f; border-radius: 8px; overflow: hidden; width: 300px; }
+.card img { width: 100%; display: block; }
+.footer { text-align: center; padding: 1rem; background: #1a1a1a; margin-top: 2rem; }
