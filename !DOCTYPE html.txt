@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diamonds & Daggers — Gothic Girly Glam Lifestyle</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Great+Vibes&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" href="./assets/images/favicon.png">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="brand">
+        <img src="./assets/images/logo.png" alt="Diamonds & Daggers logo">
+        <div class="brand-title">
+          <h1>Diamonds & Daggers</h1>
+          <span class="tag">Where Darkness Meets Glamour</span>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="./index.html">Home</a>
+        <a href="./legend.html">The Legend</a>
+        <a href="./about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="sparkles"></div>
+    <div class="container inner">
+      <h2>Gothic • Girly • Glam</h2>
+      <p>Curated looks, moody interiors, and darkly feminine rituals—plus the legend of Nyx & Jessica.</p>
+      <a class="btn primary" href="./posts/manifesto.html">Read the Manifesto</a>
+    </div>
+  </section>
+
+  <main class="container">
+    <h2>Featured</h2>
+    <div class="grid">
+      <article class="card">
+        <a href="./posts/manifesto.html"><img src="./assets/images/feature1.jpg"></a>
+        <div class="pad">
+          <h3>The Gothic Glam Manifesto</h3>
+        </div>
+      </article>
+      <article class="card">
+        <a href="./posts/nyx-jessica-prologue.html"><img src="./assets/images/feature2.jpg"></a>
+        <div class="pad">
+          <h3>Nyx & Jessica: Prologue</h3>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> Diamonds & Daggers</div>
+  </footer>
+  <script src="./script.js"></script>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
